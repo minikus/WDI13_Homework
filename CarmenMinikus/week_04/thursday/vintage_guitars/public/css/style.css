@@ -1,0 +1,54 @@
+
+.container {
+  width: 500px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: rgba(136, 122, 170, 0.13);
+  border-radius: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.guitarType h2{
+  text-align: center;
+  color: #391D6C;
+}
+
+.newGuitarForm label{
+  text-align: left;
+}
+
+.newGuitarForm div{
+  margin-top: 10px;
+}
+
+.submitNew {
+  text-align: center;
+}
+
+.guitarImage img{
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+}

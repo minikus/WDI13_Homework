@@ -1,0 +1,22 @@
+<div class="guitarType">
+  <h2><%= @guitar[0]['name'] %></h2>
+</div>
+
+<p>
+  Make: <span class="bold"><%= @guitar[0]['make'] %></span>
+</p>
+<p>
+  Year of Make:
+  <span class="bold"><%= @guitar[0]['year'] %></span>
+</p>
+<p>
+  Artist(s) that played the <%= @guitar[0]['name'] %> : <span class="bold"><%= @guitar[0]['played_by'] %>  </span>
+</p>
+<p class="guitarImage">
+  <img src="<%= @guitar[0]['image']%>" />
+</p>
+
+
+<a href="/guitars/<%= @guitar[0]['id'] %>/delete"> Delete </a>
+</br>
+<a href="/guitars/<%= @guitar[0]['id'] %>/edit">Edit</a>

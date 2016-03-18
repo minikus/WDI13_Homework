@@ -1,0 +1,20 @@
+<h2>Edit Guitar info </h2>
+
+<form action="/guitars/<%= @guitars[0]['id'] %>" method="post">
+  <label>name</label>
+  <input name="name" value="<%= @guitars[0]['name'] %>">
+
+  <label>Make: </label>
+  <input name="make"  value="<%= @guitars[0]['make']%>">
+
+  <label>Year: </label>
+  <input name="year"  value="<%= @guitars[0]['year']%>">
+
+  <label>Played By: </label>
+  <input name="played_by"  value="<%= @guitars[0]['played_by']%>">
+
+  <label>Image: </label>
+  <input type="url" name="image" value=" <%= @guitars[0]['image']%>">
+
+  <input type="submit" value="update guitar">
+</form>
