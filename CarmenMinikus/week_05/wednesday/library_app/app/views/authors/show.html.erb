@@ -1,0 +1,10 @@
+<h1><%= @author.name %></h1>
+<ul>
+  <li>Born in: <%= @author.dob %></li>
+  <li>nationality: <%= @author.nationality %></li>
+</ul>
+<%= image_tag(@author.image, :class => 'feature') %>
+<div class="edit">
+<%= link_to 'Edit Author', edit_author_path%>
+<%= link_to 'Delete Author', @author, :method => :delete %>
+</div>

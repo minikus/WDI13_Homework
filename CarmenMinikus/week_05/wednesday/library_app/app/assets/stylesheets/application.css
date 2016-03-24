@@ -1,0 +1,66 @@
+*{
+  list-style: none;
+  font-family: monospace;
+  text-decoration: none;
+
+}
+
+body{
+  background-image: url(http://static1.squarespace.com/static/51eed906e4b0953024980af9/5300510de4b0e37a19aea715/53005112e4b0405f6951c82d/1392529684643/2367VenneslaLibraryEmileAshley30web1.jpg);
+
+  }
+
+.container {
+  /*max-width: 800px;*/
+  width: 40%;
+  margin: 0 auto;
+  background-color: rgba(39,72,115,0.9);
+  padding: 5% 6% 6% 6%;
+  border-radius: 10px;
+}
+
+
+nav {
+  text-align: right;
+  margin-bottom: 10%;
+  font-size: 1.2em;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 5%;
+  color: lightblue;
+}
+
+.thumb {
+  width: 10em;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.3em;
+  font-weight: 600;
+  color: white;
+}
+
+ul, ul li {
+text-align: center;
+ padding-left: 0;
+ font-size: 1.3em;
+ font-weight: 500;
+ color: white;
+}
+
+.feature {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.edit{
+text-align: center;
+margin-top: 20px;
+}

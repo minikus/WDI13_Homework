@@ -1,0 +1,22 @@
+<h1><%= @book.title %></h1>
+
+<ul>
+  <% unless @book.author.nil? %>
+
+  <li>by: <%= link_to @book.author.name, @book.author %></li>
+  <% end %>
+<!--
+  <% if @book.author != nil %>
+
+<% end %>
+ -->
+
+  <li><%= @book.title %></li>
+  <li>Year published: <%= @book.year %></li>
+  <li>Genre: <%= @book.genre %></li>
+</ul>
+<div class="edit">
+  <%= image_tag(@book.image, :class => 'feature') %>
+  <%= link_to 'Edit Book', edit_book_path(@book) %>
+  <%= link_to 'Delete Book', @book, :method => :delete %>
+</div>
